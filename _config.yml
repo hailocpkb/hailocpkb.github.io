@@ -1,16 +1,16 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+title: Đặng Hải Lộc
+description: Website cá nhân của tôi
+author: Đặng Hải Lộc
+logo: /assets/avatar.png
+github: https://github.com/hailoc12
+about: Freelance animator
 
-baseurl: ""
-url: ""
+baseurl: "hailocpkb.github.io"
+url: "http://hailocpkb.github.io"
 
 allowsearch: true
 
-disqus_shortname: aboutashu
+disqus_shortname: hailocpkb
 google_analytics: UA-72862926-1
 
 share:
