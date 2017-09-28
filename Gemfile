@@ -1,9 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
+gemspec
 
-gem 'github-pages'
-gem 'rouge'
 gem 'jekyll'
-gem 'jekyll-mentions'
-gem 'jekyll-feed'
-gem 'jekyll-sitemap'
-gem 'jekyll-gist'
+gem 'jekyll-paginate'
+gem 'kramdown'
+gem 'pygments.rb'
