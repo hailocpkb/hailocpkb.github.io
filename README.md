@@ -1,30 +1,22 @@
-# JBlog Jekyll Theme
+## HCZ Material theme
 
-**[JBlog](http://alperenbozkurt.net/JBlog)** is a simple jekyll theme.
+This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
 
-I have used this theme in my own php and ruby blogs. And there are some shortcomings. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
+### Demo
+* [https://codeasashu.github.io/hcz-jekyll-blog](https://codeasashu.github.io/hcz-jekyll-blog/)
 
-If you like this theme or using it, please give a **star** for motivation.
+#### Feature
 
-## Preview
+* Sitemap and XML Feed
+* Site Search 
+* Projects and tags
+* Paginations in homepage
+* Posts under category
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
 
-![Home Page](/assets/img/screenshot-home.png)    
-![Post Page](/assets/img/screenshot-post.png)
+#### Screenshot
 
-See a [live version of JBlog](http://alperenbozkurt.net/JBlog) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://alperenbozkurt.net/JBlog/JBlog-theme/) for more information or apply the following instructions.
-
-##Installation
-
-- Fork the Repo
-- Edit _config.yml file.
-	- Edit url as **https**://yourusername.github.io 
-	- and others
-- Remove sample posts from _posts folder and add yours.
-- Edit index.md file in about folder.
-- Change repo name to YourUserName.github.io
-- Open "Github Pages" from settings page
-- Click the star icon at the top of this page ;)
+![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")

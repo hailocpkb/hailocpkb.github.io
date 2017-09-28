@@ -1,82 +1,67 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+---
+layout: default
+---
+<div class="post-content well">
+<article class="content">
+    <div class="post">{{ content }}</div>
+    <hr />
+    {% include share-page.html %}
+</article>
+<hr />
+{% assign hasSimilar = '' %}
+{% for post in site.posts  %}
+    {% assign postHasSimilar = false %}
+    {% for tag in post.categories %}
+        {% for thisTag in page.categories %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+                <div class="panel-body">
+                <h4>Related Posts</h4>
+                <ul>
+                {% endif %}
+                <li class="relatedPost">
+                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    {% if post.categories %}
+                        <small>(Categories: {% for category in post.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %})</small>
+                    {% endif %}
+                </li>
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% if hasSimilar.size > 0 %}
+    </ul>
+    </div>
+{% endif %}
+
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev pull-left" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next pull-right" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</div>
+
+
+<div class="disqus-comments">
+    <div id="disqus_thread"></div>
     <script type="text/javascript">
-      $(function() {
-        i = 0;
-        $('.menuAc').css({
-          'color': 'rgba(52, 152, 219, 1)'
-        });
-        $('.menuAc').click(function(){
-          $(this).next('.menuMobil').animate({width:'toggle'},350);
-          if (i%2==0) {
-            $('.footer').css({
-              'filter'         : 'blur(5px)'
-            });
-            $('.yazilar').css({
-              'filter'         : 'blur(5px)'
-            });
-            $('.ust').css({
-              'filter'         : 'blur(5px)'
-            });
-            $('ul.menu').css({
-              'animation-duration': '0.1s'
-            });
-            i++;
-          }
-          else {
-            $('.footer').css({
-              'filter'         : 'blur(0px)'
-            });
-            $('.yazilar').css({
-              'filter'         : 'blur(0px)'
-            });
-            $('.ust').css({
-              'filter'         : 'blur(0px)'
-            });
-            i++;
-          }
+        /* <![CDATA[ */
 
-        });
-      });
+        var disqus_shortname = "{{ site.disqus_shortname }}";
+        var disqus_identifier = "{{ site.url }}_{{ page.title }}";
+        var disqus_title = "{{ page.title }}";
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    /* ]]> */
     </script>
-    <div class="menuAc">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <div class="menuMobil">
-      {% include nav-home.html %}
-    </div>
-    <div class="ust">
-      <div class="ortalaAna">
-        <div class="baslikAna">
-          {{ site.title }}
-        </div>
-
-        <div class="pc">
-          {% include nav.html %}
-        </div>
-      </div>
-    </div>
-    <div class="ortalaAna">
-      <div class="yazilar">
-        <div class="yazi">
-          <div class="ustr">
-            <h2>{{ page.title }}</h2>
-            <div class="yazibilgisi">
-              {{ page.date | date_to_string }} tarihinde yayınlandı.
-            </div>
-          </div>
-          <hr>
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-        {% include scripts.html %}
-        {% include disqus_comments.html %}
-      </div>
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
+</div>
+</div>
