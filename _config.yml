@@ -1,16 +1,16 @@
 title: Đặng Hải Lộc
-description: Website cá nhân của tôi
+description: Hang thỏ của Lộc
 author: Đặng Hải Lộc
-logo: /assets/avatar.png
-github: https://github.com/hailoc12
-about: Freelance animator
+logo: asset/avatar.jpg
+github: 
+about: Cứ đi. Rồi sẽ đến
 
-baseurl: "hailocpkb.github.io"
-url: "http://hailocpkb.github.io"
+baseurl: ""
+url: ""
 
 allowsearch: true
 
-disqus_shortname: hailocpkb
+disqus_shortname: aboutashu
 google_analytics: UA-72862926-1
 
 share:
