@@ -1,11 +1,11 @@
 title: Đặng Hải Lộc
 description: Hang thỏ của Lộc
 author: Đặng Hải Lộc
-logo: asset/avatar.jpg
+logo: assets/avatar.jpg
 github: 
 about: Cứ đi. Rồi sẽ đến
 
-baseurl: "https://hailocpkb.github.io/"
+baseurl: ""
 url: ""
 
 allowsearch: true
