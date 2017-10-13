@@ -3,10 +3,10 @@
   <channel>
     <title>Đặng Hải Lộc</title>
     <description>Hang thỏ của Lộc</description>
-    <link>http://hailocpkb.github.com/</link>
-    <atom:link href="http://hailocpkb.github.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Oct 2017 21:04:36 +0700</pubDate>
-    <lastBuildDate>Fri, 13 Oct 2017 21:04:36 +0700</lastBuildDate>
+    <link>https://hailocpkb.github.io//</link>
+    <atom:link href="https://hailocpkb.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Oct 2017 21:05:07 +0700</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2017 21:05:07 +0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sat, 04 Jun 2016 20:50:39 +0700</pubDate>
-        <link>http://hailocpkb.github.com/jekyll/2016/06/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://hailocpkb.github.com/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
+        <link>https://hailocpkb.github.io//jekyll/2016/06/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://hailocpkb.github.io//jekyll/2016/06/04/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -150,8 +150,8 @@ end tell
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 04 Jun 2016 00:00:00 +0700</pubDate>
-        <link>http://hailocpkb.github.com/others/2016/06/04/example-content.html</link>
-        <guid isPermaLink="true">http://hailocpkb.github.com/others/2016/06/04/example-content.html</guid>
+        <link>https://hailocpkb.github.io//others/2016/06/04/example-content.html</link>
+        <guid isPermaLink="true">https://hailocpkb.github.io//others/2016/06/04/example-content.html</guid>
         
         
         <category>others</category>
@@ -181,8 +181,8 @@ end tell
 &lt;p&gt;One cool thing about this is the fact that images adapt themselves to the screen size of device. Try to resize your browser window and check for yourself, Have fun.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Jun 2015 20:50:39 +0700</pubDate>
-        <link>http://hailocpkb.github.com/others/2015/06/04/test-page.html</link>
-        <guid isPermaLink="true">http://hailocpkb.github.com/others/2015/06/04/test-page.html</guid>
+        <link>https://hailocpkb.github.io//others/2015/06/04/test-page.html</link>
+        <guid isPermaLink="true">https://hailocpkb.github.io//others/2015/06/04/test-page.html</guid>
         
         
         <category>others</category>
