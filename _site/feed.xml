@@ -3,10 +3,10 @@
   <channel>
     <title>Đặng Hải Lộc</title>
     <description>Hang thỏ của Lộc</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Sep 2017 09:35:11 +0700</pubDate>
-    <lastBuildDate>Fri, 29 Sep 2017 09:35:11 +0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Oct 2017 19:51:43 +0700</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2017 19:51:43 +0700</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sat, 04 Jun 2016 20:50:39 +0700</pubDate>
-        <link>http://localhost:4000/jekyll/2016/06/04/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
+        <link>/jekyll/2016/06/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -150,8 +150,8 @@ end tell
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 04 Jun 2016 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/others/2016/06/04/example-content.html</link>
-        <guid isPermaLink="true">http://localhost:4000/others/2016/06/04/example-content.html</guid>
+        <link>/others/2016/06/04/example-content.html</link>
+        <guid isPermaLink="true">/others/2016/06/04/example-content.html</guid>
         
         
         <category>others</category>
@@ -181,8 +181,8 @@ end tell
 &lt;p&gt;One cool thing about this is the fact that images adapt themselves to the screen size of device. Try to resize your browser window and check for yourself, Have fun.&lt;/p&gt;
 </description>
         <pubDate>Thu, 04 Jun 2015 20:50:39 +0700</pubDate>
-        <link>http://localhost:4000/others/2015/06/04/test-page.html</link>
-        <guid isPermaLink="true">http://localhost:4000/others/2015/06/04/test-page.html</guid>
+        <link>/others/2015/06/04/test-page.html</link>
+        <guid isPermaLink="true">/others/2015/06/04/test-page.html</guid>
         
         
         <category>others</category>
